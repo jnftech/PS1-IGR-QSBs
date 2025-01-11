@@ -56,12 +56,12 @@ Only two components are needed:
         [Samsung CL10B104KB8NNNL](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNL/3894274)<br />
         [Murata GCJ188R71E104KA12D](https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221)
 
+### Installation Notes:
+- To completely remove the chance of shorts between the IGR board and any shielding it may come in contact with, place a piece of electrical tape over the board once installed, OR place electrical tape over the sheilding area it may come in contact with. I will add a photo of this at some point.
+
 ### Fabrication Notes:
 - These boards benefit from being as thin as possible, due to being positioned between the controller PCB and the metal shielding between it and the rest of the casing. The default 1.6mm PCB thinckness may be a little tight, so it's recommended to go with 0.8mm thickness. If using OSHpark, an 0.8mm width option is available at checkout. Other fabs should have a similar thickness option, even thinner in some cases.
 - The text in the bottom copper layer *may* cause some fabs to complain about the size of the text. OSHpark doesnt have an issue (they seem to fab whatever you throw at them, regardless if it comes out well in the final product), but I have experienced cases in the past where JLCPCB will remove any text from the board that they deem too small.
-
-### Other Notes:
-- These have not been designed with the PSone in mind, and are only tested on the original "phat" models. While the PSones have no good ODE option (where this mod is most useful), I may take a quick look the next time I have a PSone open (maybe requires another board revision). 
 - There are other variants of the MCU you can use, depending on whether you have trouble sourcing the above (I did when I built my prototypes) but they may be a few cents more expensive as they have extra features or tolerances. In this project, they will all function identically:
   - The "I/" in the part number can be swapped with the "E/" variant. The latter is just "Extended Tempurature range"
   - This project uses the PIC16F18325 MCU, however the the PIC16F18**326** can also be used. It's the exact same MCU with a little bit more memory and storage. Same HEX file can be used to program either. The board I installed in my main console uses the PIC16F18326-E/JQ part. While the size of the code is fairly small, the next MCU down in the list (324) CANNOT be used as it lacks the dual SPI capability of the 325 and 326 (which this project requires).
@@ -70,6 +70,9 @@ Only two components are needed:
   - The ICSP pads by using a 2mm pitch pogo-pin PCB clamp such as this one on [Aliexpress](https://www.aliexpress.com/i/3256806664884457.html)
   - An alternative would be a DIP socket adapter ([an example of such on Aliexpress](https://www.aliexpress.com/item/32868905130.html)) to house the chip for programming before it is soldered to the board.
 
+
+### Other Notes:
+- These have not been designed with the PSone in mind, and are only tested on the original "phat" models. While the PSones have no good ODE option yet (where this mod is most useful), I have a variation in beta that I will be testing in the next few weeks.
 
 ### Tools used for this project:
 - Tracespace View (SVG conversions of gerbers for the above images) https://tracespace.io/view/
@@ -83,7 +86,6 @@ Only two components are needed:
 ### License:
 This derivative work maintains the same source license as the original board and project:  
 Attribution-ShareAlike 4.0 International. See license file for more info
-
 
 
 <p align="center">
