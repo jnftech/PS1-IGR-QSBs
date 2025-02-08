@@ -1,0 +1,122 @@
+(footprint "PS1ControllerPort_SolderSide_noSecondGND"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 12 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a26b50e-8762-41fb-93ba-0be28558ebff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PS1 Controller 1 (Solder Side)"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "4e53294a-10f4-4f3a-a7f7-d128fac2f9cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PS1-IGR:PS1ControllerPort_SolderSide"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "186d0d0e-4f9c-4280-a420-126056d583ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a61f4f5-3d32-43d9-bac1-d2df8f08ee5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c5259e1-c660-4d13-8d77-f4f17281351a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7e2606a-51ad-4164-bc46-216cce666a66")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "413b3ba7-4af3-445f-a496-0838a9239a33")
+	)
+	(pad "3" thru_hole circle
+		(at 8 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5d0fced-e47c-40aa-898e-27009af6771f")
+	)
+	(pad "4" thru_hole circle
+		(at 12 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c012d652-6a9a-4efb-b74a-4741f21dd104")
+	)
+	(pad "5" thru_hole circle
+		(at 16 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfab9a66-c646-46da-bc3d-b46d54ca4bea")
+	)
+	(pad "6" thru_hole circle
+		(at 20 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fcbb428-a13d-464a-b167-5cd8b5fdc2d2")
+	)
+	(pad "7" thru_hole circle
+		(at 24 0)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c241dd28-ff0a-449f-a036-740dc10ced96")
+	)
+)
