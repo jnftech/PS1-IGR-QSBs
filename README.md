@@ -22,7 +22,7 @@ Code, details of the solution, original PCB design, and instructions for program
 ### Controller-port (Port 1) install, SOIC Package (Normal difficulty) [(OSHpark)](https://oshpark.com/shared_projects/fwJTyytg)
 
 <p align="center">
-  <img src="images/PS1 IGR pyroesp JFT CTRLR SOIC Normal (20230212) ds.png">
+  <img src="images/PS1 IGR pyroesp JFT CTRLR SOIC Normal (20230212) ds.png" width="612px">
 </p>
 This variant more or less aimed to substitute the faulty one on OSHpark. Installs over the solder points for controller port 1 and uses the SOIC package of the microcontroller (MCU). This should be fairly easy to assemble for anyone with decent soldering skills.
 
@@ -31,7 +31,7 @@ This variant more or less aimed to substitute the faulty one on OSHpark. Install
 ### Controller-port (Port 1) install, TSSOP Package (Hard difficulty) [(OSHpark)](https://oshpark.com/shared_projects/G71d1amG)
 
 <p align="center">
-  <img src="images/PS1 IGR pyroesp JFT CTRLR TSSOP Hard (20230212) top ds.png">
+  <img src="images/PS1 IGR pyroesp JFT CTRLR TSSOP Hard (20230212) ds.png" width="612px">
 </p>
 This is almost identical to the above variant, and installs the exact same way. The only difference is the use of the TSSOP package for the MCU. This requires slightly tighter soldering skills.
 
@@ -40,7 +40,7 @@ This is almost identical to the above variant, and installs the exact same way. 
 ### Controller-ribbon connector (Center of controller PCB) install, UQFN Package (Ultrahard difficulty) [(OSHpark)](https://oshpark.com/shared_projects/B2ZQAGCg)
 
 <p align="center">
-  <img src="images/PS1 IGR pyroesp JFT CTRLR UQFN Ultra Hard (20241219) ds.png">
+  <img src="images/PS1 IGR pyroesp JFT CTRLR UQFN Ultra Hard (20241219) ds.png" width="254px">
 </p>
 Staying in the same spirit as my original visit to the project, this board aims to be as small is it can be. I realized that another spot on the controller PCB contained all the same signals as the controller port: The connector for the ribbon cable that connects the controller assembly to the main system board. This PCB installs to the back of that connector instead of the controller port. Continuing with that same spirit, I figured go all out and use the UQFN package of the MCU - which is the smallest package it comes in. However this means this board is significantly more difficult to assemble by hand. Not impossible - I hand assembled the one installed in my main console - but takes very good soldering skills and tools. I imagine this is the smallest "one-wire" install of this solution available. All that said, the actual installation of the board into the console should not be much more difficult than the other two options.
 
@@ -49,7 +49,7 @@ Staying in the same spirit as my original visit to the project, this board aims 
 ### PSone install, Flex PCB, UQFN Package (Insane difficulty) BETA
 
 <p align="center">
-  <img src="images/PS1 IGR pyroesp JFT PSone UQFN (20250207) top flex ds.png" width="352px">
+  <img src="images/PS1 IGR pyroesp JFT PSone UQFN (20250207) top flex ds.png" width="377px">
 </p>
 Info coming soon!
 
