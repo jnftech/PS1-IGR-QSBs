@@ -93,6 +93,7 @@ Only two components are needed:
 - Tracespace View (SVG conversions of gerbers for the above images) https://tracespace.io/view/
 - KiCad 8.0.6 https://www.kicad.org/
 - GIMP for some of the image edits.
+- Inkscape for some vector image edits.
 
 ### To-do
 - Post more detailed installation instructions
