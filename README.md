@@ -52,6 +52,7 @@ Staying in the same spirit as my original visit to the project, this board aims 
   <img src="images/PS1 IGR pyroesp JFT PSone UQFN (20250207) top flex ds.png" width="378px">
 </p>
 Info coming soon!
+(Quick note for anyone that wants to try this one before I get around to filling in more details - this is intended to be a flex PCB to keep it as thin as possible (flex is 0.10mm - 0.12mm) and fit under the bottom RF shield. Put kapton tape over it after installation to keep it from touching the RF shield. I have tested this install on a PSone and it works as intended. Normal PCBs are likely too thick, though I have not tried this myself. Perhaps if the RF shield is cut or omitted a regular PCB would fit. i would still go as thin as possible, for example the 0.8mm on Oshpark)
 
 
 
