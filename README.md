@@ -104,9 +104,10 @@ Only two components are needed:
 This derivative work maintains the same source license as the original board and project:  
 Attribution-ShareAlike 4.0 International. See license file for more info
 
-
+<br/><br/><br/><br/>
 <p align="center">
-  <img width="320" src="images/PS1 IGR pyroesp JFT PSone CTRLR Blend 1sc.png">
+  <img width="480" src="images/PS1 IGR pyroesp JFT PSone CTRLR Blend 1sc.png">
 </p>
+<br/><br/>
 
 
