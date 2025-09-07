@@ -106,6 +106,7 @@ Attribution-ShareAlike 4.0 International. See license file for more info
 
 
 <p align="center">
-  <img width="300" src="images/PS1-IGR JFT CTRLR Center 3D Transparent.png">
+  <img width="320" src="images/PS1 IGR pyroesp JFT PSone CTRLR Blend 1sc.png">
 </p>
+
 
