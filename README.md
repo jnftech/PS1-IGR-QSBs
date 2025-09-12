@@ -106,8 +106,9 @@ Attribution-ShareAlike 4.0 International. See license file for more info
 
 <br/><br/><br/><br/>
 <p align="center">
-  <img width="480" src="images/PS1 IGR pyroesp JFT PSone CTRLR Blend 1sc.png">
+  <img width="480" src="images/PS1 IGR pyroesp JFT PSone CTRLR Blend 2bcdss.png">
 </p>
 <br/><br/>
+
 
 
