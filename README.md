@@ -13,13 +13,14 @@ Originally I had posted a variation that was more or less a shrink of their orig
 
 A while back (2022? Yes it has taken me that long to publish the final versions here) a member of the [Consolemods.org](https://www.consolemods.org) discord observed a variation on OSHpark that installed to the back of the controller PCB behind the player 1 port. However the project was not laid out correctly, thus the wrong (higher) voltage was applied to the microcontroller. This style of board is a "Quick Solder Board" (QSB), where the board is designed to sit on top of another PCB and solder directly to signal points (versus running a wire for each signal). Such a solution allows for a "one-wire" install of this project. All but one of the signals needed are available from the solder points of the controller ports themselves. The only wire that must be run is for the reset signal.
 While these controller-PCB-mounted solutions were not uncommon at the time, the project on OSHpark appeared to be the only published gerbers for folks that prefer to fabricate their own PCBs.
-I decided to revisit the project to produce a correctly-wired version, using my own consoles for measurement. Some earlier versions of the gerbers were posted to the discord for members to use. This respository has three variations depending on your soldering preferences.
+I decided to revisit the project to produce a correctly-wired version, using my own consoles for measurement. Some earlier versions of the gerbers were posted to the discord for members to use. This respository has three variations depending on your soldering preferences. Difficulty ratings for assembling the board by hand is listed with each :)
   
 Code, details of the solution, original PCB design, and instructions for programming and installation are available at [pyroesp's Github](https://github.com/pyroesp). Programming-ready hex file in the [releases section](https://github.com/pyroesp/PlayStation-1-Reset-Mod/releases)
 
 </br></br></br>
 
-### Controller-port (Port 1) install, SOIC Package (Normal difficulty) [(OSHpark)](https://oshpark.com/shared_projects/fwJTyytg)
+### Controller-port (Port 1) install, SOIC Package [(OSHpark)](https://oshpark.com/shared_projects/fwJTyytg)
+Assembly difficulty: Normal
 
 <p align="center">
   <img src="images/PS1 IGR pyroesp JFT CTRLR SOIC Normal (20230212) ds.png" width="612px">
@@ -28,7 +29,8 @@ This variant more or less aimed to substitute the faulty one on OSHpark. Install
 
 </br></br>
 
-### Controller-port (Port 1) install, TSSOP Package (Hard difficulty) [(OSHpark)](https://oshpark.com/shared_projects/G71d1amG)
+### Controller-port (Port 1) install, TSSOP Package [(OSHpark)](https://oshpark.com/shared_projects/G71d1amG)
+Assembly difficulty: Hard~er
 
 <p align="center">
   <img src="images/PS1 IGR pyroesp JFT CTRLR TSSOP Hard (20230212) ds.png" width="612px">
@@ -37,7 +39,8 @@ This is almost identical to the above variant, and installs the exact same way. 
 
 </br></br>
 
-### Controller-ribbon connector (Center of controller PCB) install, UQFN Package (Ultrahard difficulty) [(OSHpark)](https://oshpark.com/shared_projects/B2ZQAGCg)
+### Controller-ribbon connector (Center of controller PCB) install, UQFN Package. [(OSHpark)](https://oshpark.com/shared_projects/B2ZQAGCg)
+Assembly difficulty: Ultrahard
 
 <p align="center">
   <img src="images/PS1 IGR pyroesp JFT CTRLR UQFN Ultra Hard (20241219) ds.png" width="252px">
@@ -46,7 +49,8 @@ Staying in the same spirit as my original visit to the project, this board aims 
 
 </br></br>
 
-### PSone install, Flex PCB, UQFN Package (Insane difficulty) BETA
+### PSone install, Flex PCB, UQFN Package *BETA*
+Assembly difficulty: Ultrahard
 
 <p align="center">
   <img src="images/PS1 IGR pyroesp JFT PSone UQFN (20250207) Blend 2.png" width="378px">
@@ -105,6 +109,12 @@ This derivative work maintains the same source license as the original board and
 Attribution-ShareAlike 4.0 International. See license file for more info
 
 <br/><br/><br/><br/>
+
+#
+<p align="right"><sup>Enjoy some pretty renders as I learn how to use blender for "product photos"</sup></p>
+
+<br/>
+
 <p align="center">
   <img width="380" src="images/PS1 IGR pyroesp JFT PSone CTRLR Blend 3c.png">
 </p><p align="center">
